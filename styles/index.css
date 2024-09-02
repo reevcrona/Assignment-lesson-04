@@ -2,6 +2,8 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    height: 100vh;
+    
 }
 
 button:hover{
@@ -22,7 +24,7 @@ button:hover{
     display: inline-block;
 }
 .logo-dot{
-    color: #824FF1;
+    color: #FC569A;
 }
 
 ul{
@@ -63,7 +65,7 @@ li{
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    background-color: #824FF1;
+    background-color: #FC569A;
     color: #FFFFFF;
     border: none;
     margin-left: 40.5px;
@@ -73,11 +75,15 @@ li{
 
 
 /* Main */
+main{
+    display: flex;
+    align-items: center;
+}
 
 .main-header{
     width: 100%;
     max-width: 495px;
-    margin: 208px 0 0 200px;
+    margin: 103px 0 0 200px;
     font-family: 'Ramaraja';
     font-style: normal;
     font-weight: 400;
@@ -112,7 +118,17 @@ li{
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
-    background-color: #824FF1;
+    background-color: #FC569A;
+}
+
+section{
+    display: inline-block;
+}
+.meditating-img{
+    width: 778px;
+    height: 526px;
+    margin: 133px 0 0 105px;
+   
 }
 
 /* Main */
