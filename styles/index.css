@@ -1,15 +1,73 @@
-.logo{
-    /* Medi. */
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 900;
-font-size: 30px;
-line-height: 160%;
-/* or 48px */
-letter-spacing: -0.02em;
-
-color: #0A1B32;
-
-
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+
+
+/* Nav */
+
+.logo{
+    font-family: 'Montserrat',sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1.6;
+    letter-spacing: -0.02em;
+    color: #0A1B32;
+    margin: 37px 0 0 80px;
+    display: inline-block;
+}
+.logo-dot{
+    color: #824FF1;
+}
+
+ul{
+    list-style: none;
+    display: inline-block;
+}
+
+li > a , .nav-sign-in{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    color: #1B0A42;
+}
+a,.nav-button{
+    font-family: 'Roboto',sans-serif;
+}
+ul > li:nth-child(1){
+    margin-left: 98px;
+}
+li{
+    display: inline-block;
+    margin-left: 38px;
+}
+.nav-sign-in{
+   margin-left: 752px;
+}
+.nav-button{
+    width: 120px;
+    height: 60px;
+    border-radius: 6px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    background-color: #824FF1;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 40.5px;
+}
+
+/* Nav */
+
+
+
