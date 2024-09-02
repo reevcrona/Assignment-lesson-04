@@ -4,7 +4,9 @@ body{
     box-sizing: border-box;
 }
 
-
+button:hover{
+    cursor: pointer;
+}
 
 /* Nav */
 
@@ -70,4 +72,47 @@ li{
 /* Nav */
 
 
+/* Main */
 
+.main-header{
+    width: 100%;
+    max-width: 495px;
+    margin: 208px 0 0 200px;
+    font-family: 'Ramaraja';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
+    color: #1B0A42;
+}
+.main-p{
+    width: 100%;
+    max-width: 590px;
+    margin: 10px 0 0 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.6;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+}
+.main-button{
+    width: 152px;
+    height: 64px;
+    border: none;
+    border-radius: 6px;
+    margin: 50px 0 0 200px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background-color: #824FF1;
+}
+
+/* Main */
